@@ -1,0 +1,10 @@
+<div style="text-align:center;">
+    <div ng-repeat="item in data.products" style="width:580px; text-align:left; margin:auto;">
+        <div ng-bind-template="{{item.title}}" style="font-size:28px; color:white; margin-top:28px; margin-bottom:13px;"></div>
+        <a ng-href="#/{{item.category}}?scrollTo={{item.section}}">
+            <img ng-src="{{item.preview}}">
+        </a>
+        <div style="height:24px;"></div>
+    </div>
+    <div style="height:21px;"></div>
+</div>

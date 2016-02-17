@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html ng-app="drawCompany">
+<head>
+    <title>DRAW | Visual communication company</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- AngularJS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
+
+</head>
+<body ng-controller="drawCompanyCtrl">
+    <!-- Navigation -->
+    <a id="menu-toggle" href="" class="btn toggle" ng-click="openMenu()"><img src="img/btn_menu.png"></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="" class="btn pull-right menu-close" ng-click="closeMenu()"><img src="img/btn_close.png"></a>
+            <li class="sidebar-menu-title">
+                MENU
+            </li>
+            <li>
+                <a href="#about" ng-click="closeMenu()">About draw</a>
+            </li>
+            <li>
+                <a href="#film" ng-click="closeMenu()">Film</a>
+            </li>
+            <li>
+                <a href="#commercial" ng-click="closeMenu()">Commercial</a>
+            </li>
+            <li>
+                <a href="#still" ng-click="closeMenu()">Still</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div style="padding-top:31px;">
+            <a href="#"><img src="img/draw_logo.png"></a>
+        </div>
+        <div style="margin-top:2px;">Visual communication company</div>
+    </header>
+    <div ng-view>
+    </div>
+    <div id="overlay" ng-show="isMenuOpened">
+    </div>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/app.js"></script>
+    <script src="js/drawCompanyCtrl.js"></script>
+
+</body>
+</html>

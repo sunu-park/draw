@@ -1,0 +1,16 @@
+<div class="page-title">Still</div>
+<div style="text-align:center;">
+    <div ng-repeat="item in data.products | filter:stillFilterFn" style="width:580px; text-align:left; margin:auto;">
+        <div id="{{item.section}}" ng-bind-template="{{item.title}}" style="font-size:28px; color:white; margin-top:46px; margin-bottom:13px;"></div>
+        <img ng-src="{{item.preview}}" ng-click="showStillModal(item.src)">
+        <div style="height:7px;"></div>
+    </div>
+    <div style="height:38px;"></div>
+</div>
+<!-- Modal -->
+    <div class="modal fade" id="stillModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="cf-center" style="width:580px; margin:auto;">
+            <a class="btn pull-right still-close" href="" data-dismiss="modal"><img src="img/btn_close.png"></a>
+            <img src="{{selectedStill}}" style="width:100%;">
+        </div>
+    </div>

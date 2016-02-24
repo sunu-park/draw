@@ -16,10 +16,10 @@ drawCompanyApp.config(function ($routeProvider) {
         templateUrl: "html/film.html"
     });
 
-    $routeProvider.when("/still", {
-        controller: "stillCtrl",
-        templateUrl: "html/still.html"
-    });
+    // $routeProvider.when("/still", {
+    //     controller: "stillCtrl",
+    //     templateUrl: "html/still.html"
+    // });
 
     $routeProvider.otherwise({
         templateUrl: "html/home.html"

@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE html>
 <html ng-app="drawCompany">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
     <title>DRAW | Visual communication company</title>
     
     <!-- Bootstrap Core CSS -->
@@ -10,11 +12,13 @@
     <!-- AngularJS -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
+    <!-- WebFont -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 </head>
 <body ng-controller="drawCompanyCtrl">
     <!-- Navigation -->
-    <a id="menu-toggle" href="" class="btn toggle" ng-click="openMenu()"><img src="img/btn_menu.png"></a>
+    
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="" class="btn pull-right menu-close" ng-click="closeMenu()"><img src="img/btn_close.png"></a>
@@ -30,18 +34,19 @@
             <li>
                 <a href="#commercial" ng-click="closeMenu()">Commercial</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#still" ng-click="closeMenu()">Still</a>
-            </li>
+            </li> -->
         </ul>
     </nav>
-    <header>
+    <header class="nav-down">
+        <a id="menu-toggle" href="" class="btn toggle" ng-click="openMenu()"><img src="img/btn_menu.png"></a>
         <div style="padding-top:31px;">
             <a href="#"><img src="img/draw_logo.png"></a>
         </div>
         <div style="margin-top:2px;">Visual communication company</div>
     </header>
-    <div ng-view>
+    <div ng-view style="padding-top: 137px;">
     </div>
     <div id="overlay" ng-show="isMenuOpened">
     </div>

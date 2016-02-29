@@ -6,7 +6,6 @@ body {
     height: 100%;
     background-color: black;
     font-family: 'Open Sans', sans-serif;
-    /*font-weight: lighter;*/
 }
 
 header {
@@ -17,8 +16,10 @@ header {
     text-align: center;
     border-style: solid;
     border-width: 0 0 1px 0;
-    border-color: #171717;
+    border-color: #373737;
     font-size:24px;
+    color: #949494;
+    font-style: italic;
     background-color: black;
 }
 
@@ -73,7 +74,7 @@ header {
     border-style: solid;
     border-width: 0 0 1px 0;
     border-color: #171717;
-    font-size: 36px;
+    font-size: 34px;
 }
 
 .sidebar-nav li a {
@@ -82,7 +83,6 @@ header {
     display: block;
     text-decoration: none;
     color: #ececec;
-    font-weight: lighter;
 }
 
 .sidebar-nav > .sidebar-menu-title {
@@ -128,7 +128,7 @@ header {
     text-align: center;
     border-style: solid;
     border-width: 0 0 1px 0;
-    border-color: #171717;
+    border-color: #373737;
     font-size:26px;
     color: #8c8c8c;
 }

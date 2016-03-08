@@ -33,87 +33,87 @@
     $scope.data = {
         products: [
             {
-                title: "SHOWBOX 그날의 분위기", desc: "영화 '그날의 분위기' 를 위한 티징 예고편. 키아이디어인 영화 제목의 줄임말 ‘그분’을 개발하고, ‘자느냐 마느냐 그분이 문제로다’라는 키카피와 ‘그분 반전법’ 이라는 테마 아래 3개의 호기심을 자극하는 영상을 제작하였습니다.",
+                title: "SHOWBOX 그날의 분위기", desc: "MOOD OF THE DAY, 2016<br />Client : Showbox<br />Spot : Viral<br />Title : Mood of the Day Teaser<br />Agency : SALTY",
                 section: "showbox_그날의_분위기", category: "film", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/QA3zJmZRaVo?rel=0&amp;showinfo=0"),
                 preview: "img/film/01_그날의 분위기.jpg"
             },
             {
-                title: "GUINNESS Made of More – WED", desc: "기네스의 새로운 과제는 그동안의 프리미엄한 이미지에서 벗어나 Togetherness와 home consumption을 통해 타겟층을 넓히는 것이었습니다. ‘깊이 알수록 깊이 좋아진다’는 컨셉은 제품 속성과 인간 관계의 공통점에서 도출되었으며, 광고는 세 가지 시간대에 일어나는 스토리를 보여줍니다.",
+                title: "GUINNESS Made of More – WED", desc: "GUINNESS, 2015<br />Client : Diagio Korea<br />Spot : TV<br />Title : Made of More (Wed)<br />Agency : SALTY",
                 section: "guiness_made_of_more_wed", category: "film", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/mN0IK4oRMyI?rel=0&amp;showinfo=0"),
                 preview: "img/film/02_Guinness_WED.jpg"
             },
             {
-                title: "GUINNESS Made of More – SUN", desc: "기네스의 새로운 과제는 그동안의 프리미엄한 이미지에서 벗어나 Togetherness와 home consumption을 통해 타겟층을 넓히는 것이었습니다. ‘깊이 알수록 깊이 좋아진다’는 컨셉은 제품 속성과 인간 관계의 공통점에서 도출되었으며, 광고는 세 가지 시간대에 일어나는 스토리를 보여줍니다.",
+                title: "GUINNESS Made of More – SUN", desc: "GUINNESS, 2015<br />Client : Diagio Korea<br />Spot : TV<br />Title : Made of More (Sun)<br />Agency : SALTY",
                 section: "guiness_made_of_more_sun", category: "film", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/uUFmeq8Nqmk?rel=0&amp;showinfo=0"),
                 preview: "img/film/03_Guinness_SUN.jpg"
             },
             {
-                title: "GUINNESS Made of More – FRI", desc: "기네스의 새로운 과제는 그동안의 프리미엄한 이미지에서 벗어나 Togetherness와 home consumption을 통해 타겟층을 넓히는 것이었습니다. ‘깊이 알수록 깊이 좋아진다’는 컨셉은 제품 속성과 인간 관계의 공통점에서 도출되었으며, 광고는 세 가지 시간대에 일어나는 스토리를 보여줍니다.",
+                title: "GUINNESS Made of More – FRI", desc: "GUINNESS, 2015<br />Client : Diagio Korea<br />Spot : TV<br />Title : Made of More (Fri)<br />Agency : SALTY",
                 section: "guiness_made_of_more_fri", category: "film", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/51mdk6jvkow?rel=0&amp;showinfo=0"),
                 preview: "img/film/04_Guinness_FRI.jpg"
             },
             {
-                title: "MENTOS WHITE-DAY CAMPAIGN", desc: "밸런타인데이에 초콜릿을 받은 남자들에게 멘토스를 생각나게 할 수 있도록 ‘CHOCOLATE ATTACK’이라는 강한 키비주얼을 활용하여 선배, 애인, 썸남의 3가지 강렬한 5초 영상을 제작하였습니다.",
+                title: "MENTOS WHITE-DAY CAMPAIGN", desc: "MENTOS, 2015<br />Client : Mentos<br />Spot : Viral<br />Title : Mentos White-Day Campaign<br />Agency : SALTY",
                 section: "mentos_white_day_campaign_1", category: "film", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/BB4IMt7DI-w?rel=0&amp;showinfo=0"),
                 preview: "img/film/05_Mentos_5sec_연인편.jpg"
             },
             {
-                title: "MENTOS WHITE-DAY CAMPAIGN", desc: "밸런타인데이에 초콜릿을 받은 남자들에게 멘토스를 생각나게 할 수 있도록 ‘CHOCOLATE ATTACK’이라는 강한 키비주얼을 활용하여 선배, 애인, 썸남의 3가지 강렬한 5초 영상을 제작하였습니다.",
+                title: "MENTOS WHITE-DAY CAMPAIGN", desc: "MENTOS, 2015<br />Client : Mentos<br />Spot : Viral<br />Title : Mentos White-Day Campaign<br />Agency : SALTY",
                 section: "mentos_white_day_campaign_2", category: "film", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/E6jsXfTbsXI?rel=0&amp;showinfo=0"),
                 preview: "img/film/06_Mentos_5sec_썸남편.jpg"
             },
             {
-                title: "MENTOS WHITE-DAY CAMPAIGN", desc: "밸런타인데이에 초콜릿을 받은 남자들에게 멘토스를 생각나게 할 수 있도록 ‘CHOCOLATE ATTACK’이라는 강한 키비주얼을 활용하여 선배, 애인, 썸남의 3가지 강렬한 5초 영상을 제작하였습니다.",
+                title: "MENTOS WHITE-DAY CAMPAIGN", desc: "MENTOS, 2015<br />Client : Mentos<br />Spot : Viral<br />Title : Mentos White-Day Campaign<br />Agency : SALTY",
                 section: "mentos_white_day_campaign_3", category: "film", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/GzXkf6NpMTs?rel=0&amp;showinfo=0"),
                 preview: "img/film/07_Mentos_5sec_선배편.jpg"
             },
             {
-                title: "CJ KCON Global Teaser, 2014", desc: "",
+                title: "CJ KCON Global Teaser, 2014", desc: "CJ KCON, 2014<br />Client : CJ One<br />Spot : Viral<br />Title : CJ KCON Global Teaser<br />Agency : CJ One",
                 section: "CJ KCON Global Teaser, 2014", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/iDmhCfkqhnM?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/01_CJ KCON - Global Teaser, 2014.jpg"
             },
             {
-                title: "Laneige Pushbutton Kiosk Display, 2014", desc: "",
+                title: "Laneige Pushbutton Kiosk Display, 2014", desc: "Laneige Pushbutton, 2014<br />Client : Amore Pacific<br />Spot : Viral / Kiosk Diaplay<br />Title : Laneige Pushbutton<br />Agency : BBDO Korea",
                 section: "Laneige Pushbutton Kiosk Display, 2014", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/GtGOEZKWtiY?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/02_Laneige Pushbutton - Kiosk Display, 2014.jpg"
             },
             {
-                title: "LG Built In Global USP, 2013", desc: "",
+                title: "LG Built In Global USP, 2013", desc: "LG Built In, 2013<br />Client : LG<br />Spot : Viral<br />Title : LG Built In Global USP<br />Agency : HS AD",
                 section: "LG Built In Global USP, 2013", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/hpAChfePeK0?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/03_LG Built In - Global USP.jpg"
             },
             {
-                title: "LG Oven Total Global USP, 2013", desc: "",
+                title: "LG Oven Total Global USP, 2013", desc: "LG Oven Total, 2013<br />Client : LG<br />Spot : Viral<br />Title : LG Oven Total USP<br />Agency : HS AD",
                 section: "LG Oven Total Global USP, 2013", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/cVQoFDmyKSg?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/04_LG Oven Total - Global USP.jpg"
             },
             {
-                title: "Samsung Chromebook CES Edit, 2015", desc: "",
+                title: "Samsung Chromebook CES Edit, 2015", desc: "Samsung Chromebook, 2015<br />Client : Samsung<br />Spot : CES / Viral<br />Title : Samsung Chromebook CES Edit<br />Agency : Samsung",
                 section: "Samsung Chromebook CES Edit, 2015", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/IO24iEXp1Sk?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/05_Samsung Chromebook - CES Edit, 2015.jpg"
             },
             {
-                title: "Samsung Series 9 CES Edit, 2013", desc: "",
+                title: "Samsung Series 9 CES Edit, 2013", desc: "Samsung Series 9, 2013<br />Client : Samsung<br />Spot : CES / Viral<br />Title : Samsung Series 9 CES Edit<br />Agency : Samsung",
                 section: "Samsung Series 9 CES Edit, 2013", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/CstTY04tRtE?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/06_Samsung Series 9 - CES Edit.jpg"
             },
             {
-                title: "부산국제영화제 Official Trailer, 2013", desc: "",
+                title: "부산국제영화제 Official Trailer, 2013", desc: "2013 Busan International Film Festival, 2013<br />Client : Busan International Film Festival<br />Spot : Official Trailer / Viral<br />Title : Samsung Series 9 CES Edit<br />Agency : Busan International Film Festival",
                 section: "부산국제영화제 Official Trailer, 2013", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/4g4PRH3q3p4?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/07_부산국제영화제 - Official Trailer, 2013.jpg"
             },
             {
-                title: "유한킴벌리 White Holiday Brand Campaign Intro, 2014", desc: "",
+                title: "유한킴벌리 White Holiday Brand Campaign Intro, 2014", desc: "Yuhan Kimberly White Holiday, 2014<br />Client : Yuhan Kimberly<br />Spot : Viral<br />Title : White Holiday Campaign<br />Agency : Postvisual",
                 section: "유한킴벌리 White Holiday Brand Campaign Intro, 2014", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/9bvHpLzP5EE?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/08_유한킴벌리 White Campaign - Intro.jpg"
             },
             {
-                title: "한율 율려원액 TV CM, 2014", desc: "",
+                title: "한율 율려원액 TV CM, 2014", desc: "Hanyul Yulyeowonack, 2014<br />Client : Amore Pacific<br />Spot : TV / Viral<br />Title : Hanyul Yulyeowonack<br />Agency : BBDO Korea",
                 section: "한율 율려원액 TV CM, 2014", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/q93OM0raL7Y?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/09_한율 율려원액 - CM_2014.jpg"
             },
             {
-                title: "Han Huijeong - Slow Dance Music Video, 2015", desc: "",
+                title: "Han Huijeong - Slow Dance Music Video, 2015", desc: "Han Hee-Jung - Slow Dance, 2015<br />Client : Pastel Music<br />Spot : Music Video<br />Title : Han Hee-Jung<br />Agency : Pastel Music",
                 section: "Han Huijeong - Slow Dance Music Video, 2015", category: "commercial", src: $sce.trustAsResourceUrl("https://www.youtube.com/embed/hRwg58EQxWg?rel=0&amp;showinfo=0"),
                 preview: "img/commercial/10_한희정_Slow Dance - Music Video, 2015.jpg"
             }]

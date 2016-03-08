@@ -1,4 +1,4 @@
-var drawCompanyApp = angular.module("drawCompany", ['ngRoute']);
+var drawCompanyApp = angular.module("drawCompany", ['ngRoute','ngSanitize']);
 
 drawCompanyApp.config(function ($routeProvider) {
 

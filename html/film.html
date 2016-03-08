@@ -1,9 +1,9 @@
 <div class="page-title">Film</div>
 <div style="text-align:center;">
-    <div ng-repeat="item in data.products | filter:filmFilterFn" style="width:580px; text-align:left; margin:auto;">
-        <div id="{{item.section}}" ng-bind-template="{{item.title}}" style="font-size:26px; color:white; margin-top:46px; margin-bottom:13px;"></div>
-		<iframe width="580" height="326" src="{{item.src}}" frameborder="0" allowfullscreen></iframe>
-        <div style="font-size:25px; color:#8c8c8c; margin-top:10px;">
+    <div ng-repeat="item in data.products | filter:filmFilterFn" style="width:540px; text-align:left; margin:auto;">
+        <div id="{{item.section}}" ng-bind-template="{{item.title}}" style="font-size:22px; color:#c9c9c9; margin-top:46px; margin-bottom:13px;"></div>
+        <iframe src="{{item.src}}" width="540" height="304" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div style="font-size:22px; color:#c9c9c9; margin-top:10px;">
         	<p ng-bind-html="item.desc"></p>
         </div>
         <div style="height:15px;"></div>
